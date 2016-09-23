@@ -1,0 +1,29 @@
+.poster {
+  background: url("../img/nice_600.jpg") white no-repeat right bottom fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+@media all and (min-width: 601px) {
+  .poster {
+    background-image: url("../img/nice_1024.jpg");
+  }
+}
+@media all and (min-width: 1025px) {
+  .poster {
+    background-image: url("../img/nice_1536.jpg");
+  }
+}
+@media all and (min-width: 1537px) {
+  .poster {
+    background-image: url("../img/nice_2084.jpg");
+  }
+}
+@media all and (min-width: 2049px) {
+  .poster {
+    background-image: url("../img/nice.jpg");
+  }
+}
